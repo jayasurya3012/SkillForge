@@ -6,7 +6,7 @@ An interactive Arduino circuit learning platform that combines a 3D simulator, A
 You can view the PPT here:  
 [Project Presentation](https://drive.google.com/file/d/1ADFysQ_VX-AOTGeKu1NKcnWyCxK3nOHE/view?usp=sharing)
 
-## 🎥 Demo Video
+🎥 Demo Video
 [Watch the demo](https://youtu.be/aultifgVlhM?si=o1ZVE2guBIqGUiGc)
 
 Kiro defined the full spec upfront for our AI pipeline, 3D simulation, and validation engine before writing any code. Used Kiro Chat to generate APIs, debug in real time, and orchestrate LLM + simulation workflows. Steering docs kept outputs consistent, while agent hooks ran on every save to continuously refine and stabilize the system.
