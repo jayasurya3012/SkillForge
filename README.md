@@ -6,29 +6,30 @@ An interactive Arduino circuit learning platform that combines a 3D simulator, A
 You can view the PPT here:  
 [Project Presentation](https://drive.google.com/file/d/1ADFysQ_VX-AOTGeKu1NKcnWyCxK3nOHE/view?usp=sharing)
 
+## 🎥 Demo Video
+[Watch the demo](https://youtu.be/aultifgVlhM?si=o1ZVE2guBIqGUiGc)
+
 Kiro defined the full spec upfront for our AI pipeline, 3D simulation, and validation engine before writing any code. Used Kiro Chat to generate APIs, debug in real time, and orchestrate LLM + simulation workflows. Steering docs kept outputs consistent, while agent hooks ran on every save to continuously refine and stabilize the system.
 
 We ensured all four signals:
 
 🛠️ Build
 We built an AI-powered pipeline that converts natural language circuit descriptions into structured tutorials, 3D simulations, and real-time validation. Our system combines LLMs, parallel video generation, and physics-based simulation to create an end-to-end interactive learning experience.
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 🤝 Collaboration
 Our team worked across AI systems, 3D frontend, and backend orchestration, integrating multiple technologies into a unified platform.
 We used Kiro to iterate rapidly on pipelines, debug issues, and coordinate development across components like simulation, validation, and AI generation.
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 🌍 Impact
 We solve the lack of hands-on learning in electronics by replacing static content with interactive, guided, and feedback-driven simulation.
 Our platform enables beginners to learn by building safely and affordably, bridging the gap between theory and real-world hardware.
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 
 🎤 Story
 We showcase a seamless journey from a simple text prompt to a fully built and validated working circuit in a 3D environment.
 With a clear vision for scalability, we present SkillForge as the future of experiential, AI-powered technical education.
-⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
-
+⸻⸻⸻⸻⸻⸻⸻⸻⸻⸻
 ## What It Does
 
 SkillForge lets users describe a circuit in plain English (e.g., "Blink an LED with Arduino"), then generates a full guided tutorial with:
