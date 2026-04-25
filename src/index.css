@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #004ac6;
+  --color-primary-container: #2563eb;
+  --color-on-primary: #ffffff;
+  --color-secondary: #9d4300;
+  --color-secondary-container: #fd761a;
+  --color-tertiary: #943700;
+  --color-tertiary-container: #bc4800;
+  --color-error: #ba1a1a;
+  --color-surface: #faf8ff;
+  --color-surface-container: #ededf9;
+  --color-surface-container-low: #f3f3fe;
+  --color-surface-container-high: #e7e7f3;
+  --color-on-surface: #191b23;
+  --color-on-surface-variant: #434655;
+  --color-outline: #737686;
+  --color-outline-variant: #c3c6d7;
+  --color-background: #faf8ff;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.canvas-grid {
+  background-color: #f3f3fe;
+  background-image: radial-gradient(circle, #c3c6d7 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  user-select: none;
+}
+
+.material-symbols-filled {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  user-select: none;
+}
+
+.react-flow__renderer {
+  background: transparent !important;
+}
+
+.react-flow__edge-path {
+  stroke-width: 2.5;
+  stroke-linecap: round;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.animate-pulse-dot {
+  animation: pulse-dot 2s ease-in-out infinite;
+}
